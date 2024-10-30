@@ -6,7 +6,7 @@ const generarIncidencia = require('./pdfs/incidencias');
 const generarRegistroHora = require('./pdfs/registrohora');
 const expedienteDigital = require('./expediente_digital');
 
-const token = '7320567757:AAFPEOONJIkME8ReRgHRrwX9x788wT5yoHQ';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 
 bot.on('polling_error', (error) => {
